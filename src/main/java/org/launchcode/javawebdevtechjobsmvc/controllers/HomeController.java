@@ -10,7 +10,7 @@ import java.util.HashMap;
  * Created by LaunchCode
  */
 @Controller
-public class HomeController {
+public class  HomeController {
 
     @RequestMapping(value = "")
     public String index(Model model) {
@@ -23,5 +23,7 @@ public class HomeController {
 
         return "index";
     }
+
+
 
 }

@@ -1,4 +1,4 @@
-package org.launchcode.javawebdevtechjobsmvc.models;
+package org.launchcode.javawebdevtechjobsmvc.TechjobsVC;
 
 import org.apache.commons.csv.CSVFormat;
 import org.apache.commons.csv.CSVParser;
@@ -78,6 +78,7 @@ public class JobData {
 
     public static String getFieldValue(Job job, String fieldName){
         String theValue;
+
         if (fieldName.equals("name")){
             theValue = job.getName();
         } else if (fieldName.equals("employer")){

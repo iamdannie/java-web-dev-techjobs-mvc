@@ -1,4 +1,4 @@
-package org.launchcode.javawebdevtechjobsmvc.models;
+package org.launchcode.javawebdevtechjobsmvc.TechjobsVC;
 
 public class CoreCompetency extends JobField {
 

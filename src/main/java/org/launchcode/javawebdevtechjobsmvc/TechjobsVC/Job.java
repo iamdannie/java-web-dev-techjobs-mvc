@@ -1,4 +1,4 @@
-package org.launchcode.javawebdevtechjobsmvc.models;
+package org.launchcode.javawebdevtechjobsmvc.TechjobsVC;
 
 import java.util.Objects;
 
